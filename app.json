@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/plate-input/plate-input"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "无感停车"
+  },
+  "sitemapLocation": "sitemap.json",
+  "navigateToMiniProgramAppIdList": ["wxbcad394b3d99dac9"]
+}

@@ -1,0 +1,52 @@
+@import "input-box-template/input-box-template.wxss";
+@import "plate-keyboard-template/palte-keyboard-template.wxss";
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.taber{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.taber-container{
+    width: 100%;
+    position: absolute;
+    position: fixed;
+    bottom:15px;
+    display: flex;
+    justify-content: center;
+    color:#8DB6CD;
+    font-size:32rpx;
+}
+.input-container{
+    width: 100%;
+    position: absolute;
+    top: 165px;
+}
+.keyboard-container{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index:9999
+}
+
+.swiper image {
+  width: 100%;
+  height: auto;
+}
+ 
+.swiper-image {
+  height: 100%;
+  width: 100%;
+}
+ 
+.slide-image {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
